@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis:wght@500;600&family=Mukta&family=Open+Sans:wght@400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap');
+
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;     
+    font-family: Open Sans, sans-serif;   
+    font-style: normal;  
+}
+ul li {
+    list-style: none;   
+}
+ul, h2, p {
+    padding: 0;
+    margin: 0;
+}
+h2, h1 {
+    color: #264A51;
+    text-align: center;
+    font-family: Dosis, sans-serif;    
+    font-style: normal;
+    font-weight: 600;   
+}
+
+button {
+    width: 140px;
+    height: 43px;
+    border-radius: 3px;
+    border: 1.5px solid #43717D;
+    background: rgba(108, 176, 195, 0.00);
+    padding: 8px 16px;
+    color: #264A51;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer; 
+}
+
+.page__main {    
+    display: flex;
+    background-image: url('../pictures/main/main.jpg');
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* width: 100%; */
+    height: 810px;    
+}
+.header__col__logo {   
+    display: block;
+    margin-top: 19px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto 
+}
+/* header aside */
+.header__col {    
+    background-color: #002a32;
+    width: 165px;
+}
+.navigation__list {
+    padding: 0;
+}
+.navigation__list__item__wrapper {  
+    width: 165px;
+    height: 98px;   
+}
+.navigation__list__link {    
+    display: block;   
+    color: #8999A1;
+    text-align: center;    
+    font-size: 15px;    
+    font-weight: 400;
+    line-height: normal;
+}
+.navigation__list__logo {    
+    margin: 20px 66px 0px 66px;
+   
+}
+.navigation__list__text {    
+    margin: 6px 0;
+}
+.navigation__list__item:hover {
+    background-color: #3C6C7F;
+}
+.article__main {
+    position: relative;
+    width: 1275px;
+}
+
+.sub__header {  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;    
+    min-height: 70px;
+}
+.sub__header__item {
+    display: inline-block;
+}
+.sub__header__left svg {
+    padding-left: 12px;
+}
+.sub_header__right svg {
+    padding-right: 14px;
+}
+.sub__header__left{
+    margin-left: 95px;
+}
+.sub__header__left li {
+    padding-right: 19px;
+}
+.sub_header__right {
+    margin-right: 165px;
+}
+.sub_header__right li {
+    padding-left: 35px;
+}
+.sub__header__item span {
+    color: #DD6060;
+    font-family: Open Sans;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.sub__header__item a {
+    text-transform: uppercase;
+    color: #3E5860;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px;
+}
+.main {
+    position: relative;
+    height: 740px;
+}
+
+.wrapper__sofa {
+    position: absolute;
+    width: 195px;
+    height: 140px;
+    top: 115px;
+    right: 381px;
+}
+.title__main {    
+    position: absolute;
+    top: 193px;
+    left: 95px;
+    width: 394px;
+    height: 284px;
+}
+.title__main p {
+    color: #4E6E77;
+    margin: 0 0 9px 0;
+    font-family: Dancing Script;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+.title__main h1 {    
+    margin: 0 0 18px 0;    
+    text-align: start;
+    font-size: 50px;    
+}
+.main__dots {    
+    position: absolute;
+    top: 671px;
+    right: 686px;
+    width: 67px;
+    height: 13.862px;   
+}
+/* Page Supporting company */
+.supporting-company {    
+    display: flex;
+    flex-wrap: wrap;    
+    background: #D2E2EE;   
+    height: 140px;
+}
+
+.supporting-company ul {
+   display: flex;
+   align-items: center;   
+   margin-left: 209px;
+   margin-right: 193px;    
+}
+.supporting-company .item1 {
+    margin-right: 105px;
+}
+.supporting-company .item2 {
+    margin-right: 70px;
+}
+.supporting-company .item3 {
+    margin-right: 60px;
+}
+.supporting-company .item4 {
+    margin-right: 75px;
+}
+.supporting-company .item5 {
+    margin-right: 82px;
+}
+/* page Our Products */
+.products {
+    width: 100%;
+    height: 100%;
+    
+}
+.page__products {
+    padding: 93px 165px;  
+    display: flex;    
+    background: #F3F3F3;    
+}
+
+.products__title {
+    text-align: center;
+    padding-bottom: 33px;
+    width: 100%;        
+    /* font-family: Dosis, sans-serif;     */
+    font-size: 46px;    
+}
+.product__menu {   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 37px 34px 24px;
+}
+.product__menu_link {
+    color: #264A51;
+    padding: 6px 5px;
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 2px solid transparent;
+    cursor: pointer;
+
+}
+.product__menu_link:hover {
+    border-radius: 2px;
+    border: 2px solid #3E5860;   
+}
+.product__items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+.product__items__card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 400px;
+}
+.card-picture {
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    position: relative;    
+    width: 350px;
+    height: 316px;
+    margin-bottom: 12px;
+    border-radius: 3px;
+    background: #F1F6F9;    
+    box-shadow: 0px 1px 10px 0px rgba(0, 0, 0, 0.15);
+}
+.product-btn {    
+    position: absolute;
+    bottom: 25px;
+    left: 75px;
+}
+.product-stickers {    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: absolute;
+    top: 30px;
+    left: 294px;
+    width: 38px;
+    height: 90px;
+}
+/* discont */
+.product-stickers__discont__wrapper {
+    display: flex;
+}
+
+.product-stickers__discont_title {
+    position: absolute;
+    top: 9px;
+    left: 5px;
+    color: #FFF;
+    font-family: Mukta;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/* label */
+.product-stickers__lable__wrapper {
+    position: relative;
+    display: flex;
+}
+.product-stickers__lable_title {
+    position: absolute;
+    top: 9px;
+    left: 7px;
+    color: #D4DCE2;
+    font-family: Mukta;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.card-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.product-name, .product-price {
+    color: #264A51;
+    text-align: center;
+    font-family: Mukta;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+.button-product {
+    position: absolute;
+    top: 152px;
+    left: 265px;
+    width: 85px;
+    height: 30px;
+    padding: 4px 6px 6px 7px;
+    color: #FFF;
+    font-family: Mukta;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 2px 0px 0px 2px;
+    background: #264A51;
+}
+.btn_none {
+    display: none;
+}
+
+/* Page product description */
+
+.product__description {
+    position: relative;
+    background-image: url(./pictures/description/font_product_description.jpg);    
+    height: 735px;
+}
+.product__description__wrapper {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 206px;
+    left: 158px;
+}
+
+.discont__trendy-sofa {    
+    color: #F3B705;
+    opacity: 0.5;
+    text-align: center;
+    font-family: Dosis, sans-serif;
+    font-size: 90px;
+    font-style: normal;
+    font-weight: 800;
+}
+.product__description__title {     
+    text-align: center;    
+    font-size: 60px;    
+}
+.product__description__text {
+    display: block;    
+    width: 389px;
+    height: 90px;
+    color: #335E74;
+    text-align: center;
+    font-family: Mukta;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;    
+}
+.product__description__button {
+    border: 2px solid #264A51;
+}
+/* Page Gallery */
+
+.gallery__product {
+    height: 6257px;
+    background: #F3F3F3;
+    padding: 116px 160px 129px 165px;
+}
+.gallery__product_card {
+    border: 1px solid red;
+    display: flex;
+    position: relative;
+
+}
+.gallery__product_description {
+    display: flex;
+    
+    flex-direction: column;
+    align-items: center;
+}
+.gallery__product_picture {
+    background-image: url(./pictures/gallery/living_room.jpg);
+    width: 599px;
+    height: 599px;
+    
+
+}
+.gallery__product_description_title {
+    font-size: 39px;
+}
+.gallery__product_description_text {
+    display: block;
+    margin-left: 40px;
+    margin-top: 25px;
+    width: 475px;
+    height: 143px;
+    color: #335E74;
+    text-align: center;
+    font-family: Mukta;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
