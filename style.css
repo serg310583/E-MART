@@ -89,36 +89,37 @@ button {
     background-color: #3C6C7F;
 }
 .article__main {
-    position: relative;
+    position: relative;   
     padding-top: 30px;
     width: 1275px;
 }
 
-.sub__header {  
+.main__menu {  
     display: flex;
+    flex-wrap: wrap;
     width: 100%;    
     min-height: 70px;
 }
-.sub__header__item {
+.main__menu__item {
     display: inline-block;
 }
-.sub__header__left svg {
+.main__menu__left svg {
     padding-left: 12px;
 }
-.sub_header__right svg {
+.main__menu__right svg {
     padding-right: 14px;
 }
-.sub__header__left{
+.main__menu__left{
     margin-left: 95px;
     margin-right: 340px;
 }
-.sub__header__left li {
+.main__menu__left li {
     padding-right: 33px;
 }
-.sub_header__right li {
+.main__menu__right li {
     padding-left: 35px;
 }
-.sub__header__item span {
+.main__menu__item span {
     color: #DD6060;
     font-family: Open Sans;
     font-size: 8px;
@@ -126,7 +127,7 @@ button {
     font-weight: 600;
     line-height: normal;
 }
-.sub__header__item a {
+.main__menu__item a {
     text-transform: uppercase;
     color: #3E5860;
     font-family: Open Sans;
@@ -144,7 +145,7 @@ button {
     width: 195px;
     height: 140px;
     top: 86px;
-    right: 381px;
+    left: 700px;
 }
 .title__main {    
     position: absolute;
@@ -153,15 +154,18 @@ button {
     width: 395px;
 }
 .title__main p {
-    color: #4E6E77;
-    margin: 0 0 9px 0;
+    color: #4E6E77;    
     font-family: Dancing Script;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
     letter-spacing: 1.2px;
 }
-.title__main h1 {    
+.h1-hidden {
+    visibility: hidden;
+    font-size: 0;
+}
+.title__main_text {    
     margin-top: 10px;
     margin-bottom: 10px;    
     text-align: start;
@@ -171,10 +175,11 @@ button {
 }
 .main__dots {    
     position: absolute;
-    top: 671px;
+    display: flex;    
+    top: 642px;
     right: 686px;
-    width: 67px;
-    height: 13.862px;   
+   
+   
 }
 /* Page Supporting company */
 .supporting-company {    
@@ -270,7 +275,7 @@ button {
 }
 .product-btn__wrp {
     position: absolute;
-    bottom: 25px;
+    bottom: 15px;
     left: 75px;
     display: flex;
     justify-content: space-between;
@@ -292,7 +297,7 @@ button {
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
-    top: 30px;
+    top: 37px;
     left: 294px;
     width: 38px;
     height: 90px;
@@ -342,11 +347,11 @@ button {
 }
 .button-product {
     position: absolute;
-    top: 152px;
+    top: 160px;
     left: 265px;
     width: 85px;
     height: 30px;
-    padding: 4px 6px 6px 7px;
+    padding: 4px 5px 5px 7px;
     color: #FFF;
     font-family: Mukta;
     font-size: 12px;
@@ -374,7 +379,7 @@ button {
     left: 162px;
 }
 .discont__trendy-sofa {
-    padding-bottom: 5px;    
+    padding-bottom: 25px;    
     color: #F3B705;
     opacity: 0.5;
     text-align: center;
@@ -401,6 +406,7 @@ button {
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
+    line-height: 172.682%; /* 25.902px */
     letter-spacing: 0.675px;    
 }
 .product__description__button {
@@ -510,7 +516,7 @@ button {
     flex-direction: column;
     align-items: center;
     height: 377px; 
-    padding-top: 177px;   
+    padding-top: 183px;   
     background:        
     linear-gradient(
     rgba(93, 155, 201, 0.69), 
@@ -571,7 +577,7 @@ button {
     display: flex;
     flex-direction: column;
     display: flex;
-    padding: 117px 165px 0px 189px ;
+    padding: 124px 165px 0px 189px ;
     background: #F3F3F3;
 }
 .footer__wrapper {
