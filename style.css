@@ -16,7 +16,7 @@ a {
 ul li {
     list-style: none;   
 }
-ul, h2, p {
+ul, h1, h2, h3, p {
     padding: 0;
     margin: 0;
 }
@@ -42,6 +42,7 @@ button {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    letter-spacing: 0.675px;
     cursor: pointer; 
 }
 
@@ -79,27 +80,27 @@ button {
     text-align: center;    
     font-size: 15px;    
     font-weight: 400;
-    line-height: normal;
+    line-height: normal;   
 }
 .navigation__list__logo {    
     margin: 20px 66px 0px 66px;
    
 }
-.navigation__list__text {    
+/* .navigation__list__text {    
     margin: 6px 0;
-}
+} */
 .navigation__list__item:hover {
     background-color: #3C6C7F;
 }
 .article__main {
     position: relative;
+    padding-top: 30px;
     width: 1275px;
 }
 
 .sub__header {  
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: flex;    
+    
     width: 100%;    
     min-height: 70px;
 }
@@ -114,14 +115,15 @@ button {
 }
 .sub__header__left{
     margin-left: 95px;
+    margin-right: 340px;
 }
 .sub__header__left li {
-    padding-right: 19px;
+    padding-right: 33px;
 }
-.sub_header__right {
-    margin-right: 165px;
-}
+
 .sub_header__right li {
+    
+    
     padding-left: 35px;
 }
 .sub__header__item span {
@@ -133,6 +135,7 @@ button {
     line-height: normal;
 }
 .sub__header__item a {
+    
     text-transform: uppercase;
     color: #3E5860;
     font-family: Open Sans;
@@ -140,25 +143,26 @@ button {
     font-style: normal;
     font-weight: 600;
     line-height: 26px;
+    letter-spacing: -0.64px;
 }
 .main {
     position: relative;
-    height: 740px;
+    
 }
 
 .wrapper__sofa {
     position: absolute;
     width: 195px;
     height: 140px;
-    top: 115px;
+    top: 86px;
     right: 381px;
 }
 .title__main {    
     position: absolute;
-    top: 193px;
+    top: 160px;
     left: 95px;
-    width: 394px;
-    height: 284px;
+    width: 395px;
+    
 }
 .title__main p {
     color: #4E6E77;
@@ -167,11 +171,15 @@ button {
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
+    letter-spacing: 1.2px;
 }
 .title__main h1 {    
-    margin: 0 0 18px 0;    
+    margin-top: 10px;
+    margin-bottom: 10px;    
     text-align: start;
-    font-size: 50px;    
+    font-size: 50px;
+    line-height: 133.5%;
+    letter-spacing: 2.25px    
 }
 .main__dots {    
     position: absolute;
@@ -216,23 +224,24 @@ button {
     
 }
 .page__products {
-    padding: 93px 165px;  
+    padding: 103px 165px;  
     display: flex;    
     background: #F3F3F3;    
 }
 
 .products__title {
     text-align: center;
-    padding-bottom: 33px;
+    padding-bottom: 45px;
     width: 100%;        
     /* font-family: Dosis, sans-serif;     */
-    font-size: 46px;    
+    font-size: 46px; 
+    letter-spacing: 2.07px;   
 }
 .product__menu {   
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 0 37px 34px 24px;
+    padding: 0 33px 34px 43px;
 }
 .product__menu_link {
     color: #264A51;
@@ -243,6 +252,7 @@ button {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    letter-spacing: 2.07px;
     border: 2px solid transparent;
     cursor: pointer;
 
@@ -366,11 +376,12 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    top: 206px;
-    left: 158px;
+    top: 195px;
+    left: 162px;
 }
 
-.discont__trendy-sofa {    
+.discont__trendy-sofa {
+    padding-bottom: 5px;    
     color: #F3B705;
     opacity: 0.5;
     text-align: center;
@@ -378,21 +389,26 @@ button {
     font-size: 90px;
     font-style: normal;
     font-weight: 800;
+    letter-spacing: 4.05px;
 }
-.product__description__title {     
+.product__description__title {
+    padding-bottom: 20px;     
     text-align: center;    
-    font-size: 60px;    
+    font-size: 60px;
+    letter-spacing: 2.7px;    
 }
 .product__description__text {
     display: block;    
     width: 389px;
     height: 90px;
+    padding-bottom: 17px;
     color: #335E74;
     text-align: center;
     font-family: Mukta;
     font-size: 15px;
     font-style: normal;
-    font-weight: 400;    
+    font-weight: 400;
+    letter-spacing: 0.675px;    
 }
 .product__description__button {
     border: 2px solid #264A51;
@@ -400,44 +416,266 @@ button {
 /* Page Gallery */
 
 .gallery__product {
-    height: 6257px;
+    height: 2230px;
     background: #F3F3F3;
-    padding: 116px 160px 129px 165px;
+    padding: 116px 160px 98px 165px;
 }
 .gallery__product_card {
-    border: 1px solid red;
-    display: flex;
     position: relative;
-
+    display: flex;    
+    margin-bottom: 114px;
+}
+.special__wrp {
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 245px;
+    align-items: center;
+}
+.special__wrp_btn {
+    display: inline-block;
+    align-items: center;
 }
 .gallery__product_description {
-    display: flex;
     
+    display: flex;
+    padding-left: 41px;
+    justify-content: center;    
     flex-direction: column;
     align-items: center;
 }
 .gallery__product_picture {
-    background-image: url(./pictures/gallery/living_room.jpg);
-    width: 599px;
-    height: 599px;
-    
-
+    position: relative;
 }
 .gallery__product_description_title {
-    font-size: 39px;
+    
+    font-size: 46px;
+    letter-spacing: 1.755px;
 }
 .gallery__product_description_text {
     display: block;
-    margin-left: 40px;
-    margin-top: 25px;
-    width: 475px;
-    height: 143px;
+    
     color: #335E74;
     text-align: center;
     font-family: Mukta;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
+    letter-spacing: 0.675px;
 }
 
+.gallery_block {
+    position: absolute;
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    background: rgba(113, 179, 198, 0.85);
+    position: absolute;    
+    bottom: 57px;
+    left: 535px;
+    width: 129px;
+    height: 148px;
+}
+.gallery_block_name {    
+    color: #FFF;    
+    font-family: Dosis;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+}
 
+/* page gallery  Diving*/
+.gallery__product_card-dining {    
+    flex-direction: row-reverse;   
+}
+.gallery_block-dining {
+    left: -62px;
+}
+.gallery__product_card-dining .gallery__product_description{
+    padding-left: 0;
+    padding-right: 83px;
+}
+/* page gallery  Bed*/
+.gallery__product_card-bed .gallery__product_description{
+    padding-left: 97px;
+}
+.gallery_block-bed {
+    left: 559px;
+}
+/* page gallery  Kitchen*/
+.gallery__product_card-kitchen {
+    flex-direction: row-reverse;
+}
+.gallery__product_card-kitchen .gallery__product_description {
+    padding-left: 0;
+    padding-right: 53px;
+}
+.gallery_block-kitchen {
+    left: -66px;
+}
+/* Page Subscribe */
+.subscribe__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 377px; 
+    padding-top: 177px;
+    /* min-height: 554px;    */
+    background:        
+        linear-gradient(
+        rgba(93, 155, 201, 0.69), 
+        rgba(93, 155, 201, 0.69)
+        ),        
+        url(./pictures/main/subscribe.jpg);
+    }
+    .subscribe__title {       
+        font-size: 46px;
+        letter-spacing: 2.07px;       
+    }
+    .subscribe__text { 
+        padding-top: 11px;
+        padding-bottom: 19px;       
+        width: 389px;
+        height: 59px;
+        color: #FFF;
+        text-align: center;
+        font-family: Mukta;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        letter-spacing: 0.675px;
+    }
+    
+    .custom-search {
+        position: relative;
+        width: 460px;
+    }
+    .custom-search-input {
+        width: 100%;
+        height: 46px;        
+        border-radius: 50px;
+        background: #DAE5EE;
+        /* box-shadow: 0px 15px 30px 0px rgba(34, 34, 34, 0.11);         */
+        padding: 10px 100px 10px 20px; 
+        line-height: 1;
+        box-sizing: border-box;
+        outline: none;
+    }
+    .custom-search-botton {
+        position: absolute;
+        height: 46px;
+        right: 0; 
+        top: 0;
+        bottom: 0;
+        border-radius: 50px;
+        background: rgba(38, 74, 81, 0.89);
+        box-shadow: -2px 15px 40px 0px rgba(0, 0, 0, 0.11);       
+        color: #FFF;
+        text-align: center;
+        font-family: Mukta;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 500;
+    }
+      /* Page Footer */
+    .footer {
+        display: flex;
+        flex-direction: column;
+        border: 1px solid red;
+        display: flex;
+        min-height: 408px;
+        padding: 116px;
+        background: #F3F3F3;
+    }
+    .footer__wrapper {
+        display: flex;
+    }
+    .footer__social, .footer__contact {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer__explore {
+        width: 158px;
+    }
+    .footer__contact {
+        width: 300px;
+    }
+    .sub__footer {
+        border: 1px solid red;
+        height: 40px;
+        /* width: 1440px; */
+    }
+    .footer__socials__logo {
+        margin-top: 5px;
+    }
+    
+    .footer__social__text,
+    .contact__adress,
+    .footer__contact__tel,
+    .footer__contact__mail {
+        width: 327px;
+        height: 59px;
+        margin-top: 12px;
+        margin-bottom: 19px;
+        color: #335E74;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        
+        letter-spacing: 0.63px;
+    }
+    .footer__explore__list-item_link {
+        color: #335E74;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;        
+        letter-spacing: 0.63px;
+    }
+    .explore__title, .contact__title,
+    .service-hours__title {
+        padding-bottom: 20px;
+        color: #264A51;
+        font-family: Mukta;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 700;       
+        letter-spacing: 1.25px;
+    }
+    .spacing {
+        letter-spacing: 0.42px;
+        
+    }
+    .footer__service-hours__wrapper {
+        padding-top: 21px;
+        padding-left: 21px;
+        width: 234.786px;
+        height: 134px;
+        border-radius: 7px;
+        background: #A0C7EA;
+    }
+    
+    .footer__service-hours__day {        
+        color: #335E74;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;        
+        letter-spacing: 0.42px;
+        padding-bottom: 19px;
+       
+    }
+    .footer__service-hours__hour {
+        color: #FFF;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;        
+        letter-spacing: 0.42px;
+    }
+
+
+   
