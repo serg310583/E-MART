@@ -51,8 +51,7 @@ button {
     background-image: url('../pictures/main/main.jpg');
     background-size: no-repeat;
     background-position: center;
-    background-size: cover;
-    /* width: 100%; */
+    background-size: cover;    
     height: 810px;    
 }
 .header__col__logo {   
@@ -86,9 +85,6 @@ button {
     margin: 20px 66px 0px 66px;
    
 }
-/* .navigation__list__text {    
-    margin: 6px 0;
-} */
 .navigation__list__item:hover {
     background-color: #3C6C7F;
 }
@@ -99,8 +95,7 @@ button {
 }
 
 .sub__header {  
-    display: flex;    
-    
+    display: flex;
     width: 100%;    
     min-height: 70px;
 }
@@ -120,10 +115,7 @@ button {
 .sub__header__left li {
     padding-right: 33px;
 }
-
 .sub_header__right li {
-    
-    
     padding-left: 35px;
 }
 .sub__header__item span {
@@ -135,7 +127,6 @@ button {
     line-height: normal;
 }
 .sub__header__item a {
-    
     text-transform: uppercase;
     color: #3E5860;
     font-family: Open Sans;
@@ -147,9 +138,7 @@ button {
 }
 .main {
     position: relative;
-    
 }
-
 .wrapper__sofa {
     position: absolute;
     width: 195px;
@@ -162,7 +151,6 @@ button {
     top: 160px;
     left: 95px;
     width: 395px;
-    
 }
 .title__main p {
     color: #4E6E77;
@@ -195,7 +183,6 @@ button {
     background: #D2E2EE;   
     height: 140px;
 }
-
 .supporting-company ul {
    display: flex;
    align-items: center;   
@@ -221,19 +208,16 @@ button {
 .products {
     width: 100%;
     height: 100%;
-    
 }
 .page__products {
     padding: 103px 165px;  
     display: flex;    
     background: #F3F3F3;    
 }
-
 .products__title {
     text-align: center;
     padding-bottom: 45px;
-    width: 100%;        
-    /* font-family: Dosis, sans-serif;     */
+    width: 100%;  
     font-size: 46px; 
     letter-spacing: 2.07px;   
 }
@@ -255,7 +239,6 @@ button {
     letter-spacing: 2.07px;
     border: 2px solid transparent;
     cursor: pointer;
-
 }
 .product__menu_link:hover {
     border-radius: 2px;
@@ -304,7 +287,6 @@ button {
 .product-stickers__discont__wrapper {
     display: flex;
 }
-
 .product-stickers__discont_title {
     position: absolute;
     top: 9px;
@@ -315,7 +297,6 @@ button {
     font-style: normal;
     font-weight: 500;
 }
-
 /* label */
 .product-stickers__lable__wrapper {
     position: relative;
@@ -363,7 +344,6 @@ button {
 .btn_none {
     display: none;
 }
-
 /* Page product description */
 
 .product__description {
@@ -379,7 +359,6 @@ button {
     top: 195px;
     left: 162px;
 }
-
 .discont__trendy-sofa {
     padding-bottom: 5px;    
     color: #F3B705;
@@ -426,7 +405,6 @@ button {
     margin-bottom: 114px;
 }
 .special__wrp {
-  
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -438,7 +416,6 @@ button {
     align-items: center;
 }
 .gallery__product_description {
-    
     display: flex;
     padding-left: 41px;
     justify-content: center;    
@@ -449,13 +426,11 @@ button {
     position: relative;
 }
 .gallery__product_description_title {
-    
     font-size: 46px;
     letter-spacing: 1.755px;
 }
 .gallery__product_description_text {
     display: block;
-    
     color: #335E74;
     text-align: center;
     font-family: Mukta;
@@ -464,7 +439,6 @@ button {
     font-weight: 400;
     letter-spacing: 0.675px;
 }
-
 .gallery_block {
     position: absolute;
     display: flex;    
@@ -521,161 +495,175 @@ button {
     flex-direction: column;
     align-items: center;
     height: 377px; 
-    padding-top: 177px;
-    /* min-height: 554px;    */
+    padding-top: 177px;   
     background:        
-        linear-gradient(
-        rgba(93, 155, 201, 0.69), 
-        rgba(93, 155, 201, 0.69)
-        ),        
-        url(./pictures/main/subscribe.jpg);
-    }
-    .subscribe__title {       
-        font-size: 46px;
-        letter-spacing: 2.07px;       
-    }
-    .subscribe__text { 
-        padding-top: 11px;
-        padding-bottom: 19px;       
-        width: 389px;
-        height: 59px;
-        color: #FFF;
-        text-align: center;
-        font-family: Mukta;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        letter-spacing: 0.675px;
-    }
+    linear-gradient(
+    rgba(93, 155, 201, 0.69), 
+    rgba(93, 155, 201, 0.69)
+    ),        
+    url(./pictures/main/subscribe.jpg);
+}
+.subscribe__title {       
+    font-size: 46px;
+    letter-spacing: 2.07px;       
+}
+.subscribe__text { 
+    padding-top: 11px;
+    padding-bottom: 19px;       
+    width: 389px;
+    height: 59px;
+    color: #FFF;
+    text-align: center;
+    font-family: Mukta;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.675px;
+}
+.custom-search {
+    position: relative;
+    width: 460px;
+}
+.custom-search-input {
+    width: 100%;
+    height: 46px;        
+    border-radius: 50px;
+    background: #DAE5EE;
+    /* box-shadow: 0px 15px 30px 0px rgba(34, 34, 34, 0.11);         */
+    padding: 10px 100px 10px 20px; 
+    line-height: 1;
+    box-sizing: border-box;
+    outline: none;
+}
+.custom-search-botton {
+    position: absolute;
+    height: 46px;
+    right: 0; 
+    top: 0;
+    bottom: 0;
+    border-radius: 50px;
+    background: rgba(38, 74, 81, 0.89);
+    box-shadow: -2px 15px 40px 0px rgba(0, 0, 0, 0.11);       
+    color: #FFF;
+    text-align: center;
+    font-family: Mukta;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+}
+    /* Page Footer */
+.footer {
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    padding: 117px 165px 0px 189px ;
+    background: #F3F3F3;
+}
+.footer__wrapper {
+    display: flex;
+    padding-bottom: 42px;
+}
+.footer__social, .footer__contact {
+    display: flex;
+    flex-direction: column;
+}
+.footer__explore {
+    width: 185px;
+}
+.footer__explore__list li {
+    padding-bottom: 9px;
+}
+.footer__contact {
+    width: 300px;
+}
+.footer__socials__logo {
+    margin-top: 5px;
+}
+.footer__social__text,
+.contact__adress,
+.footer__contact__tel,
+.footer__contact__mail 
+{       
+    color: #335E74;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24.175px;        
+    letter-spacing: 0.63px;
+}
+.footer__social__text {
+    width: 375px;
+    height: 59px;
+    margin-top: 18px;
+    margin-bottom: 13px;
+}
+.footer__explore__list-item_link {
+    color: #335E74;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;        
+    letter-spacing: 0.63px;
+}
+.contact__adress {
+    padding-bottom: 9px;
+}
+.explore__title, .contact__title,
+.service-hours__title {
+    padding-bottom: 25px;
+    color: #264A51;
+    font-family: Mukta;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;       
+    letter-spacing: 1.25px;
+}
+.spacing {
+    letter-spacing: 0.42px;        
+}
+.footer__service-hours__wrapper {
+    padding-top: 21px;
+    width: 234.786px;
+    height: 120px;
+    border-radius: 7px;
+    background: #A0C7EA;
+}
+.footer__service-hours__wrapper li {
+    padding-top: 6px;
+    padding-left: 21px;
+}
+.footer__service-hours__day {        
+    color: #335E74;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;        
+    letter-spacing: 0.42px;
+    padding-bottom: 9px;
     
-    .custom-search {
-        position: relative;
-        width: 460px;
-    }
-    .custom-search-input {
-        width: 100%;
-        height: 46px;        
-        border-radius: 50px;
-        background: #DAE5EE;
-        /* box-shadow: 0px 15px 30px 0px rgba(34, 34, 34, 0.11);         */
-        padding: 10px 100px 10px 20px; 
-        line-height: 1;
-        box-sizing: border-box;
-        outline: none;
-    }
-    .custom-search-botton {
-        position: absolute;
-        height: 46px;
-        right: 0; 
-        top: 0;
-        bottom: 0;
-        border-radius: 50px;
-        background: rgba(38, 74, 81, 0.89);
-        box-shadow: -2px 15px 40px 0px rgba(0, 0, 0, 0.11);       
-        color: #FFF;
-        text-align: center;
-        font-family: Mukta;
-        font-size: 17px;
-        font-style: normal;
-        font-weight: 500;
-    }
-      /* Page Footer */
-    .footer {
-        display: flex;
-        flex-direction: column;
-        border: 1px solid red;
-        display: flex;
-        min-height: 408px;
-        padding: 116px;
-        background: #F3F3F3;
-    }
-    .footer__wrapper {
-        display: flex;
-    }
-    .footer__social, .footer__contact {
-        display: flex;
-        flex-direction: column;
-    }
-    .footer__explore {
-        width: 158px;
-    }
-    .footer__contact {
-        width: 300px;
-    }
-    .sub__footer {
-        border: 1px solid red;
-        height: 40px;
-        /* width: 1440px; */
-    }
-    .footer__socials__logo {
-        margin-top: 5px;
-    }
+}
+.footer__service-hours__hour {
+    color: #FFF;
+    font-family: Open Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;        
+    letter-spacing: 0.42px;
+}
+.sub__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #D3E2EF;
+    color: #335E74;
+    font-family: Open Sans;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    letter-spacing: 0.45px;
+}
     
-    .footer__social__text,
-    .contact__adress,
-    .footer__contact__tel,
-    .footer__contact__mail {
-        width: 327px;
-        height: 59px;
-        margin-top: 12px;
-        margin-bottom: 19px;
-        color: #335E74;
-        font-family: Open Sans;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;
-        
-        letter-spacing: 0.63px;
-    }
-    .footer__explore__list-item_link {
-        color: #335E74;
-        font-family: Open Sans;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;        
-        letter-spacing: 0.63px;
-    }
-    .explore__title, .contact__title,
-    .service-hours__title {
-        padding-bottom: 20px;
-        color: #264A51;
-        font-family: Mukta;
-        font-size: 25px;
-        font-style: normal;
-        font-weight: 700;       
-        letter-spacing: 1.25px;
-    }
-    .spacing {
-        letter-spacing: 0.42px;
-        
-    }
-    .footer__service-hours__wrapper {
-        padding-top: 21px;
-        padding-left: 21px;
-        width: 234.786px;
-        height: 134px;
-        border-radius: 7px;
-        background: #A0C7EA;
-    }
-    
-    .footer__service-hours__day {        
-        color: #335E74;
-        font-family: Open Sans;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 600;        
-        letter-spacing: 0.42px;
-        padding-bottom: 19px;
-       
-    }
-    .footer__service-hours__hour {
-        color: #FFF;
-        font-family: Open Sans;
-        font-size: 14px;
-        font-style: normal;
-        font-weight: 400;        
-        letter-spacing: 0.42px;
-    }
-
 
    
